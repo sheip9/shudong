@@ -52,6 +52,13 @@
 
 
 	
+		
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+
+		
+<script src="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+
+	
 
 	<script>
 		var argonConfig = {
@@ -719,6 +726,23 @@
 	};
 </script>
 
+
+	<div id="post_comment" class="card shadow-sm">
+		<div id="gitalk-container"></div>
+<script type="text/javascript">
+	var gitalk = new Gitalk({
+		clientID: '97dbb8cd708e2ef2170e',
+		clientSecret: '6906f60ca860327180ffa114c6f0991ddbea628a',
+		repo: 'sheip9',
+		owner: 'sheip9',
+		admin: ['sheip9'],
+		id: location.pathname,
+		distractionFreeMode: false
+	})
+	gitalk.render('gitalk-container');
+</script>
+
+	</div>
 
 
 
